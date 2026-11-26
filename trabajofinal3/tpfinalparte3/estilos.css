@@ -1,0 +1,155 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0f1115;
+    color: #e8e6e1;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.65;
+    padding-top: 64px;
+}
+
+.fuente-codigo {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.texto-rojo {
+    color: #e63946 !important;
+}
+
+.texto-gris {
+    color: #a3a8b3;
+}
+
+.texto-suave {
+    color: #7c828d;
+}
+
+.fondo-oscuro {
+    background-color: #0a0c0f;
+}
+
+.borde-seccion {
+    border-bottom: 1px solid #2a2f3a;
+}
+
+.barra {
+    background-color: rgba(10, 12, 15, 0.94);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid #2a2f3a;
+}
+
+.barra .nav-link {
+    color: #a3a8b3;
+    transition: color 0.2s ease;
+}
+
+.barra .nav-link:hover,
+.barra .nav-link.active {
+    color: #e63946;
+}
+
+.etiqueta {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border: 1px solid #e63946;
+    color: #e63946;
+    background-color: rgba(230, 57, 70, 0.12);
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+}
+
+.portada {
+    min-height: calc(100vh - 64px);
+    background: radial-gradient(circle at 80% 30%, rgba(230, 57, 70, 0.12), transparent 55%),
+        linear-gradient(180deg, #0a0c0f 0%, #0f1115 100%);
+    border-bottom: 1px solid #2a2f3a;
+}
+
+.boton-rojo {
+    background-color: #e63946;
+    color: #ffffff;
+    border: 1px solid #e63946;
+    border-radius: 2px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.boton-rojo:hover {
+    background-color: #ff4d5a;
+    border-color: #ff4d5a;
+    color: #ffffff;
+    box-shadow: 0 4px 18px rgba(230, 57, 70, 0.35);
+    transform: translateY(-2px);
+}
+
+.boton-borde {
+    background-color: transparent;
+    color: #e8e6e1;
+    border: 1px solid #a3a8b3;
+    border-radius: 2px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.boton-borde:hover {
+    border-color: #e63946;
+    color: #ff4d5a;
+    background-color: rgba(230, 57, 70, 0.1);
+    transform: translateY(-2px);
+}
+
+.tarjeta,
+.marco-foto {
+    background-color: #161920;
+    border: 1px solid #2a2f3a;
+    border-radius: 2px;
+    transition: border-color 0.2s ease;
+}
+
+.tarjeta:hover {
+    border-color: rgba(230, 57, 70, 0.6);
+}
+
+.marco-foto {
+    padding: 0.75rem;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+}
+
+.encabezado-foto {
+    border-bottom: 1px solid #2a2f3a;
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.6rem;
+    color: #a3a8b3;
+}
+
+.imagen-pixel {
+    width: 100%;
+    border: 1px solid #222630;
+    image-rendering: pixelated;
+}
+
+.lista-casos {
+    padding-left: 1.2rem;
+}
+
+.lista-casos li {
+    margin-bottom: 0.65rem;
+}
+
+.lista-casos li::marker {
+    color: #e63946;
+}
+
+.caja-acceso {
+    background-color: #161920;
+    border: 1px solid #2a2f3a;
+    border-left: 4px solid #e63946;
+    border-radius: 2px;
+}
+
+.pie {
+    background-color: #0a0c0f;
+    border-top: 1px solid #2a2f3a;
+}
